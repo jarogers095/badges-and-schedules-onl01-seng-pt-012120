@@ -2,11 +2,13 @@ def badge_maker(attendee)
   return "Hello, my name is #{attendee}."
 end
 
+
 def batch_badge_creator(array_of_names)
   return array_of_names.collect do |name| 
     badge_maker(name)
   end
 end
+
 
 def assign_rooms(array_of_speakers)
   array_rooms = []
@@ -16,6 +18,7 @@ def assign_rooms(array_of_speakers)
   
   return array_rooms
 end
+
 
 def printer(names)
   batch_badge_creator(names).each do |badge|
