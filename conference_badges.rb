@@ -14,7 +14,7 @@ def assign_rooms(array_of_speakers)
   array_of_speakers.each_with_index do |speaker,index| array_rooms.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
   end
   
-  return array_of_room_messages
+  return array_rooms
 end
 
 def printer(names)
