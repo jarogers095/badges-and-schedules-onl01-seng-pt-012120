@@ -10,7 +10,7 @@ end
 
 def assign_rooms(array_of_speakers)
   array_of_room_messages = []
-  array_of_speakers.each_with_index do |speaker,index| array_of_room_messages.push("Hello, #{speaker}! You'll be assigned to room #{index+1}")
+  array_of_speakers.each_with_index do |speaker,index| array_of_room_messages.push("Hello, #{speaker}! You'll be assigned to room #{index+1}!")
   end
   return array_of_room_messages
 end
